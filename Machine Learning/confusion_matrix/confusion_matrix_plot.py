@@ -85,6 +85,7 @@ def read_data_AND_plot_confusion_matrix(file_path, num_classes, title ):
     #plt.show()
 
     return confusion_matrix
+
 def precision_AND_recall_plot(confusion_matrix, title, num_classes):
     # list for storing calculated precisions and recalls of the input confusion matrix
     precisions = []
