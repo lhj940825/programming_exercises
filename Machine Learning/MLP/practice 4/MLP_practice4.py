@@ -130,6 +130,7 @@ def train_and_plot_optimal_network(X_train, Y_train, X_test,Y_test, num_class, n
     plt.savefig('./training_loss_figure.png')
     plt.show()
 
+
     print("Final Testing accuracy: "+ str(history[1]))
 
 if __name__ == '__main__':
